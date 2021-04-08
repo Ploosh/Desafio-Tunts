@@ -1,0 +1,22 @@
+{
+  "name": "desafio-tunts",
+  "version": "1.0.0",
+  "description": "Rsolução do desafio Tunts para Backend NodeJs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ploosh/Desafio-Tunts.git"
+  },
+  "author": "Fernanda Barreto Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ploosh/Desafio-Tunts/issues"
+  },
+  "homepage": "https://github.com/Ploosh/Desafio-Tunts#readme",
+  "dependencies": {
+    "google-spreadsheet": "^3.1.15"
+  }
+}

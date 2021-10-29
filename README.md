@@ -4,12 +4,13 @@
 
 Criar uma aplicação em NodeJs. A aplicação deve ser capaz de ler uma planilha do google sheets, buscar as informações necessárias, calcular e escrever o resultado na planilha.
 
-### Sumário
+## Sumário
+
 - [Regras](#regras)
 - [Especificações técnicas](#especificações-técnicas)
-    - [Tecnologias utilizadas](#tecnologias-utilizadas)
-    - [Instruções de instalação](#instruções-de-instalação)
-    - [Executando o projeto localmente](#executando-o-projeto-localmente)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Instruções de instalação](#instruções-de-instalação)
+  - [Executando o projeto localmente](#executando-o-projeto-localmente)
 
 ## Regras
 
@@ -23,7 +24,7 @@ Calcular a situação de cada aluno baseado na média das 3 provas (P1, P2 e P3)
 
 Caso o número de faltas ultrapasse 25% do número total de aulas o aluno terá a situação "Reprovado por Falta", independente da média.
 
-Caso a situação seja "Exame Final" é necessário calcular a "Nota para Aprovação Final"(naf) de cada aluno de acordo com seguinte fórmula: 
+Caso a situação seja "Exame Final" é necessário calcular a "Nota para Aprovação Final"(naf) de cada aluno de acordo com seguinte fórmula:
 
 5 <= (m + naf)/2
 
@@ -43,6 +44,7 @@ O candidato deve especificar os comandos que devem ser utilizados para execuçã
 ```
 
 O candidato deve publicar o código fonte em um repositório git de sua preferência (exemplo: github, gitlab, bitbucket e etc).
+
 ## Especificações técnicas
 
 ### Tecnologias utilizadas
@@ -71,6 +73,7 @@ Para utilizar a API é necessário criar uma chave de autenticação. [Clique aq
 Mova a chave para a pasta ```Desafio-Tunts/src``` e a renomeie para **key.json**
 
 Na página da [planilha](https://docs.google.com/spreadsheets/d/1BCMGbmE_qGpHVhZYIfjb3L7MSERGYZkbkL0VMqDRu8k/edit?usp=sharing) clique em "Compartilhar" e adicione o e-mail disponível no seu arquivo key.json para que seja possível escrever na planilha.
+
 ### Executando o projeto localmente
 
 Abra uma janela do terminal na pasta raiz do projeto e execute o back-end:

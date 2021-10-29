@@ -2,6 +2,7 @@
 
 [Repositório GitHub](https://github.com/Ploosh/Desafio-Tunts) | [Planilha](https://docs.google.com/spreadsheets/d/1BCMGbmE_qGpHVhZYIfjb3L7MSERGYZkbkL0VMqDRu8k/edit?usp=sharing)
 
+*Este desafio foi feito como avaliação para vaga de dev backend jr*
 Criar uma aplicação em NodeJs. A aplicação deve ser capaz de ler uma planilha do google sheets, buscar as informações necessárias, calcular e escrever o resultado na planilha.
 
 ## Sumário
@@ -16,11 +17,11 @@ Criar uma aplicação em NodeJs. A aplicação deve ser capaz de ler uma planilh
 
 Calcular a situação de cada aluno baseado na média das 3 provas (P1, P2 e P3), conforme a tabela:
 
-| Média (m)  | Situação |
-| ------------- | ------------- |
-| m < 50  | Reprovado por Nota  |
-| 5 <= m < 7  | Exame Final  |
-| m >= 7  | Aprovado  |
+| Média (m)  | Situação           |
+| ---------- | ------------------ |
+| m < 50     | Reprovado por Nota |
+| 5 <= m < 7 | Exame Final        |
+| m >= 7     | Aprovado           |
 
 Caso o número de faltas ultrapasse 25% do número total de aulas o aluno terá a situação "Reprovado por Falta", independente da média.
 
@@ -70,7 +71,7 @@ npm install
 
 Para utilizar a API é necessário criar uma chave de autenticação. [Clique aqui](https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication?id=service-account) para ver como cria-la.
 
-Mova a chave para a pasta ```Desafio-Tunts/src``` e a renomeie para **key.json**
+Mova a chave para a pasta `Desafio-Tunts/src` e a renomeie para **key.json**
 
 Na página da [planilha](https://docs.google.com/spreadsheets/d/1BCMGbmE_qGpHVhZYIfjb3L7MSERGYZkbkL0VMqDRu8k/edit?usp=sharing) clique em "Compartilhar" e adicione o e-mail disponível no seu arquivo key.json para que seja possível escrever na planilha.
 
